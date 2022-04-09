@@ -1,0 +1,23 @@
+.orange_white_btn {
+    a {
+        padding: 15px 25px;
+        text-transform: uppercase;
+        background-color: #f8b600;
+        font-size: 12px;
+        font-weight: 500;
+        &:hover{
+            background-color: black;
+            color: white;
+        }
+    }
+}
+
+.black_btn {
+    a {
+        padding: 10px 20px;
+        background-color: black;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+}
+

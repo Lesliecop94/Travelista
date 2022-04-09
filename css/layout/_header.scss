@@ -1,0 +1,66 @@
+header {
+    position: relative;
+
+    .main_title {
+        color: white;
+        position: absolute;
+        top: 40%;
+
+        h2 {
+            text-transform: uppercase;
+            font-size: 60px;
+            margin: 20px 0;
+        }
+
+
+    }
+}
+
+.home {
+    height: 100vh;
+    background: url(../img/hero-bg.jpg) center/cover;
+
+    h1 {
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 100;
+        letter-spacing: 3px;
+    }
+
+    h3 {
+        max-width: 600px;
+        font-size: 14px;
+        font-weight: 100;
+        margin-bottom: 50px;
+    }
+
+}
+
+.hotels {
+    height: 70vh;
+    background: linear-gradient(0deg, rgba(58, 58, 58, 0.626)), url(../../img/hero-hotels.jpg) center/cover;
+}
+
+.contact {
+    height: 70vh;
+    background: linear-gradient(0deg, rgba(58, 58, 58, 0.626)), url(../../img/hero-contact.jpg) center/cover;
+}
+.p-blog {
+    height: 70vh;
+    background: linear-gradient(0deg, rgba(58, 58, 58, 0.626)), url(../../img/hero-blog.jpg) center/cover;
+}
+.pages {
+    .main_title {
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        .liens {
+            text-align: center;
+
+            i {
+                padding: 0 20px;
+            }
+        }
+    }
+}

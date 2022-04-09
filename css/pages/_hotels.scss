@@ -1,0 +1,73 @@
+.fiche_hotel {
+    img {
+        width: 100%;
+    }
+}
+
+.h-hotel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    i {
+        color: #f8b600;
+    }
+}
+
+.description {
+    padding: 30px 0;
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        a {
+            color: rgb(129, 129, 129);
+        }
+
+        .prix {
+            padding: 10px 20px;
+            color: black;
+            background-color: #f8b600;
+            font-weight: 700;
+        }
+
+    }
+}
+
+.gap {
+    gap: 50px;
+}
+
+@media (max-width: 990px) {
+
+
+    .request {
+        width: 100%;
+
+        .blog {
+            .txt {
+                width: 100%;
+                text-align: center;
+                padding-bottom: 50px;
+            }
+
+            .img {
+                width: 100%;
+            }
+        }
+    }
+    .gallery_foot {
+
+        justify-items: center;
+    }
+    @media (max-width: 990px) {
+        .blog {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+    }
+
+}

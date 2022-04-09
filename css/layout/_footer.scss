@@ -1,0 +1,109 @@
+footer {
+    background-color: rgb(6, 6, 95);
+    padding-top: 50px;
+
+    .up_footer {
+        border-bottom: thin solid lightgrey;
+
+        .blog {
+            gap: 30px;
+            margin-bottom: 30px;
+
+            .sect {
+                width: 100%;
+
+                h1 {
+                    color: white;
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    margin-bottom: 30px;
+                }
+
+                input {
+                    background-color: transparent;
+                    padding: 10px;
+                    border: thin solid rgb(129, 129, 129);
+                }
+
+                .nav_foot {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .links_foot {
+                        display: flex;
+                        flex-direction: column;
+
+                        a {
+                            line-height: 30px;
+                            font-size: 14px;
+                            line-height: 25px;
+                            color: rgb(129, 129, 129);
+                        }
+                    }
+                }
+            }
+        }
+
+        .gallery_foot {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 10px;
+            
+
+        }
+    }
+
+    .sub_footer {
+        .blog {
+            margin: 0;
+            padding: 40px 0 80px;
+            align-items: center;
+
+            i {
+                padding: 0 5px;
+            }
+
+        }
+    }
+}
+@media (max-width: 990px) {
+    .blog {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav_foot {
+        display: flex;
+        justify-content: space-between;
+        width: 200px;
+
+        .links_foot {
+            display: flex;
+            flex-direction: column;
+
+            a {
+                line-height: 30px;
+                font-size: 14px;
+                line-height: 25px;
+                color: rgb(129, 129, 129);
+            }
+        }
+    }
+    .gallery_foot{
+    img{
+        width: 100px;
+    }}
+}
+// RESPONSIVE 600px
+@media (max-width: 600px) {
+
+    .sect {
+        input {
+            width: 100%;
+        }
+    }
+
+
+
+}

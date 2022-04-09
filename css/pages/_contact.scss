@@ -1,0 +1,39 @@
+.map {
+    padding: 100px 0;
+}
+
+.coord {
+    width: 100%;
+
+    .i {
+        display: flex;
+        align-items: center;
+
+        text-align: left;
+
+        i {
+            font-size: 40px;
+            padding-right: 50px;
+            color: #f8b600;
+        }
+    }
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+
+
+.info_contact {
+    margin-bottom: 100px;
+
+    .orange_white_btn {
+        text-align: right;
+    }
+}

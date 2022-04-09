@@ -1,0 +1,260 @@
+// SECTION POPULAR DESTINATION
+.places {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    h2 {
+        text-align: center;
+        margin: 0;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 999;
+    }
+
+    p {
+        color: white;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 999;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .hover {
+        width: 100%;
+        height: 97%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0.416);
+        opacity: 0;
+        transition: .3s all ease-in-out;
+
+        a {
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 10px 30px;
+            color: black;
+            background-color: #f8b600;
+            font-weight: 700;
+        }
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+//////////////////////////////
+
+// SECTION AFFORDABLE PRICES
+.affordable_prices {
+    background: url(../img/price-bg.png) center/cover;
+    padding: 30px 0;
+
+    .package {
+        width: 100%;
+        background-color: white;
+        padding: 0 30px 20px;
+
+        .subtitle {
+            width: 100%;
+            border-bottom: 2px solid #f8b600;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .countries {
+            div {
+
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .price {
+                    padding: 10px;
+                    background-color: rgb(241, 241, 241);
+                    color: rgb(129, 129, 129);
+                    font-weight: 700;
+
+                    &:hover {
+                        background-color: #f8b600;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+//////////////////////////////
+
+// SECTION OTHER ISSUES
+.other_issues {
+    .issues {
+        .rotate {
+
+            overflow: hidden;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        &:hover {
+            img {
+                width: 100%;
+                transform: rotate(-5deg) scale(1.2);
+
+            }
+
+            .subtitle {
+                color: #f8b600;
+            }
+        }
+    }
+}
+//////////////////////////////
+
+// SECTION TESTIMONIAL
+.testimonial {
+    background-color: rgb(240, 240, 240);
+    padding: 10px 0;
+
+    .blog {
+        .testi {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            background-color: white;
+            padding: 20px;
+
+            .ppl {
+                img {
+                    width: 50px;
+                    border-radius: 50%;
+
+                }
+            }
+
+            .txt {
+                .stars {
+                    color: #f8b600;
+                }
+            }
+        }
+    }
+}
+//////////////////////////////
+
+// SECTION REQUEST CLIENT
+.request {
+    width: 100%;
+
+    .blog {
+        margin-bottom: 0;
+        .txt {
+            width: 50%;
+            align-self: center;
+            padding: 0 5%;
+
+            p {
+                margin-bottom: 50px;
+            }
+        }
+
+        .img {
+            width: 50%;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+//////////////////////////////
+
+// SECTION LATEST FROM OUR BLOG
+.latest_blog {
+    img {
+        width: 100%;
+    }
+
+    .item_blog {
+        .zoom {
+            overflow: hidden;
+        }
+
+        div {
+            margin: 20px 0;
+
+            a {
+                color: black;
+                border: thin solid lightgrey;
+                padding: 5px 10px;
+                font-size: 12px;
+
+                &:hover {
+
+                    color: white;
+                    border-color: #f8b600;
+                    background-color: #f8b600;
+
+                }
+            }
+        }
+
+        &:hover {
+            img {
+                transform: scale(1.1);
+            }
+
+
+        }
+
+    }
+}
+//////////////////////////////
+
+@media (max-width: 990px) {
+    .blog {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+// RESPONSIVE 600px
+@media (
+    max-width: 600px) {
+    .blog {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .request {
+        width: 100%;
+
+        .blog {
+            .txt {
+                width: 100%;
+                text-align: center;
+                padding-bottom: 50px;
+            }
+
+            .img {
+                width: 100%;
+            }
+        }
+    }
+}
