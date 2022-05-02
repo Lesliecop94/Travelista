@@ -115,6 +115,7 @@ img {
             color: white;
         }
     }
+
 }
 
 .blog_flex {
@@ -299,6 +300,10 @@ img {
                     text-align: left;
                 }
             }
+        }
+        .prev{
+            display: flex;
+            flex-direction: column;
         }
     }
 

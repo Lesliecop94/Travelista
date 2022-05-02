@@ -45,10 +45,11 @@ footer {
         }
 
         .gallery_foot {
+        
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             grid-template-rows: repeat(2, 1fr);
-            gap: 10px;
+            gap: 2%;
             
 
         }
@@ -90,10 +91,7 @@ footer {
             }
         }
     }
-    .gallery_foot{
-    img{
-        width: 100px;
-    }}
+
 }
 // RESPONSIVE 600px
 @media (max-width: 600px) {
